@@ -1,0 +1,1131 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:8412298f-8183-54d6-aea6-4125648ca161",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:23:00Z",
+    "component": {
+      "type": "application",
+      "name": "EXTRACTION_FRAMEWORK",
+      "version": "96b63eda2742",
+      "bom-ref": "pkg:generic/anticloud/EXTRACTION_FRAMEWORK@96b63eda2742",
+      "purl": "pkg:generic/anticloud/EXTRACTION_FRAMEWORK@96b63eda2742",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "96b63eda27422e420c64ad6ff54fe9db61395f3a"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "ArrayFire",
+      "version": "unspecified",
+      "purl": "pkg:generic/ArrayFire",
+      "bom-ref": "native/ArrayFire@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GLOG",
+      "version": "unspecified",
+      "purl": "pkg:generic/GLOG",
+      "bom-ref": "native/GLOG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GFLAGS",
+      "version": "unspecified",
+      "purl": "pkg:generic/GFLAGS",
+      "bom-ref": "native/GFLAGS@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenMP",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenMP",
+      "bom-ref": "native/OpenMP@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "flashlight",
+      "version": "unspecified",
+      "purl": "pkg:generic/flashlight",
+      "bom-ref": "native/flashlight@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "astropy",
+      "version": ">=6.0.0",
+      "purl": "pkg:pypi/astropy@6.0.0",
+      "bom-ref": "pypi/astropy@>=6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=1.24.0",
+      "purl": "pkg:pypi/numpy@1.24.0",
+      "bom-ref": "pypi/numpy@>=1.24.0"
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": ">=23.0",
+      "purl": "pkg:pypi/packaging@23.0",
+      "bom-ref": "pypi/packaging@>=23.0"
+    },
+    {
+      "type": "library",
+      "name": "name",
+      "version": "rustdesk",
+      "purl": "pkg:cargo/name@rustdesk",
+      "bom-ref": "cargo/name@rustdesk"
+    },
+    {
+      "type": "library",
+      "name": "version",
+      "version": "1.4.0",
+      "purl": "pkg:cargo/version@1.4.0",
+      "bom-ref": "cargo/version@1.4.0"
+    },
+    {
+      "type": "library",
+      "name": "edition",
+      "version": "2021",
+      "purl": "pkg:cargo/edition@2021",
+      "bom-ref": "cargo/edition@2021"
+    },
+    {
+      "type": "library",
+      "name": "build",
+      "version": "build.rs",
+      "purl": "pkg:cargo/build@build.rs",
+      "bom-ref": "cargo/build@build.rs"
+    },
+    {
+      "type": "library",
+      "name": "description",
+      "version": "RustDesk Remote Desktop",
+      "purl": "pkg:cargo/description@RustDesk Remote Desktop",
+      "bom-ref": "cargo/description@RustDesk Remote Desktop"
+    },
+    {
+      "type": "library",
+      "name": "default-run",
+      "version": "rustdesk",
+      "purl": "pkg:cargo/default-run@rustdesk",
+      "bom-ref": "cargo/default-run@rustdesk"
+    },
+    {
+      "type": "library",
+      "name": "rust-version",
+      "version": "1.75",
+      "purl": "pkg:cargo/rust-version@1.75",
+      "bom-ref": "cargo/rust-version@1.75"
+    },
+    {
+      "type": "library",
+      "name": "path",
+      "version": "src/naming.rs",
+      "purl": "pkg:cargo/path@src/naming.rs",
+      "bom-ref": "cargo/path@src/naming.rs"
+    },
+    {
+      "type": "library",
+      "name": "async-trait",
+      "version": "0.1",
+      "purl": "pkg:cargo/async-trait@0.1",
+      "bom-ref": "cargo/async-trait@0.1"
+    },
+    {
+      "type": "library",
+      "name": "serde_derive",
+      "version": "1.0",
+      "purl": "pkg:cargo/serde_derive@1.0",
+      "bom-ref": "cargo/serde_derive@1.0"
+    },
+    {
+      "type": "library",
+      "name": "serde",
+      "version": "1.0",
+      "purl": "pkg:cargo/serde@1.0",
+      "bom-ref": "cargo/serde@1.0"
+    },
+    {
+      "type": "library",
+      "name": "serde_json",
+      "version": "1.0",
+      "purl": "pkg:cargo/serde_json@1.0",
+      "bom-ref": "cargo/serde_json@1.0"
+    },
+    {
+      "type": "library",
+      "name": "serde_repr",
+      "version": "0.1",
+      "purl": "pkg:cargo/serde_repr@0.1",
+      "bom-ref": "cargo/serde_repr@0.1"
+    },
+    {
+      "type": "library",
+      "name": "cfg-if",
+      "version": "1.0",
+      "purl": "pkg:cargo/cfg-if@1.0",
+      "bom-ref": "cargo/cfg-if@1.0"
+    },
+    {
+      "type": "library",
+      "name": "lazy_static",
+      "version": "1.4",
+      "purl": "pkg:cargo/lazy_static@1.4",
+      "bom-ref": "cargo/lazy_static@1.4"
+    },
+    {
+      "type": "library",
+      "name": "sha2",
+      "version": "0.10",
+      "purl": "pkg:cargo/sha2@0.10",
+      "bom-ref": "cargo/sha2@0.10"
+    },
+    {
+      "type": "library",
+      "name": "repng",
+      "version": "0.2",
+      "purl": "pkg:cargo/repng@0.2",
+      "bom-ref": "cargo/repng@0.2"
+    },
+    {
+      "type": "library",
+      "name": "dasp",
+      "version": "0.11",
+      "purl": "pkg:cargo/dasp@0.11",
+      "bom-ref": "cargo/dasp@0.11"
+    },
+    {
+      "type": "library",
+      "name": "rubato",
+      "version": "0.12",
+      "purl": "pkg:cargo/rubato@0.12",
+      "bom-ref": "cargo/rubato@0.12"
+    },
+    {
+      "type": "library",
+      "name": "samplerate",
+      "version": "0.2",
+      "purl": "pkg:cargo/samplerate@0.2",
+      "bom-ref": "cargo/samplerate@0.2"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "1.3",
+      "purl": "pkg:cargo/uuid@1.3",
+      "bom-ref": "cargo/uuid@1.3"
+    },
+    {
+      "type": "library",
+      "name": "clap",
+      "version": "4.2",
+      "purl": "pkg:cargo/clap@4.2",
+      "bom-ref": "cargo/clap@4.2"
+    },
+    {
+      "type": "library",
+      "name": "rpassword",
+      "version": "7.2",
+      "purl": "pkg:cargo/rpassword@7.2",
+      "bom-ref": "cargo/rpassword@7.2"
+    },
+    {
+      "type": "library",
+      "name": "num_cpus",
+      "version": "1.15",
+      "purl": "pkg:cargo/num_cpus@1.15",
+      "bom-ref": "cargo/num_cpus@1.15"
+    },
+    {
+      "type": "library",
+      "name": "bytes",
+      "version": "1.4",
+      "purl": "pkg:cargo/bytes@1.4",
+      "bom-ref": "cargo/bytes@1.4"
+    },
+    {
+      "type": "library",
+      "name": "default-net",
+      "version": "0.14",
+      "purl": "pkg:cargo/default-net@0.14",
+      "bom-ref": "cargo/default-net@0.14"
+    },
+    {
+      "type": "library",
+      "name": "wol-rs",
+      "version": "1.0",
+      "purl": "pkg:cargo/wol-rs@1.0",
+      "bom-ref": "cargo/wol-rs@1.0"
+    },
+    {
+      "type": "library",
+      "name": "flutter_rust_bridge",
+      "version": "=1.80",
+      "purl": "pkg:cargo/flutter_rust_bridge@=1.80",
+      "bom-ref": "cargo/flutter_rust_bridge@=1.80"
+    },
+    {
+      "type": "library",
+      "name": "errno",
+      "version": "0.3",
+      "purl": "pkg:cargo/errno@0.3",
+      "bom-ref": "cargo/errno@0.3"
+    },
+    {
+      "type": "library",
+      "name": "url",
+      "version": "2.3",
+      "purl": "pkg:cargo/url@2.3",
+      "bom-ref": "cargo/url@2.3"
+    },
+    {
+      "type": "library",
+      "name": "crossbeam-queue",
+      "version": "0.3",
+      "purl": "pkg:cargo/crossbeam-queue@0.3",
+      "bom-ref": "cargo/crossbeam-queue@0.3"
+    },
+    {
+      "type": "library",
+      "name": "hex",
+      "version": "0.4",
+      "purl": "pkg:cargo/hex@0.4",
+      "bom-ref": "cargo/hex@0.4"
+    },
+    {
+      "type": "library",
+      "name": "chrono",
+      "version": "0.4",
+      "purl": "pkg:cargo/chrono@0.4",
+      "bom-ref": "cargo/chrono@0.4"
+    },
+    {
+      "type": "library",
+      "name": "cidr-utils",
+      "version": "0.5",
+      "purl": "pkg:cargo/cidr-utils@0.5",
+      "bom-ref": "cargo/cidr-utils@0.5"
+    },
+    {
+      "type": "library",
+      "name": "libloading",
+      "version": "0.8",
+      "purl": "pkg:cargo/libloading@0.8",
+      "bom-ref": "cargo/libloading@0.8"
+    },
+    {
+      "type": "library",
+      "name": "fon",
+      "version": "0.6",
+      "purl": "pkg:cargo/fon@0.6",
+      "bom-ref": "cargo/fon@0.6"
+    },
+    {
+      "type": "library",
+      "name": "zip",
+      "version": "0.6",
+      "purl": "pkg:cargo/zip@0.6",
+      "bom-ref": "cargo/zip@0.6"
+    },
+    {
+      "type": "library",
+      "name": "shutdown_hooks",
+      "version": "0.1",
+      "purl": "pkg:cargo/shutdown_hooks@0.1",
+      "bom-ref": "cargo/shutdown_hooks@0.1"
+    },
+    {
+      "type": "library",
+      "name": "totp-rs",
+      "version": "5.4",
+      "purl": "pkg:cargo/totp-rs@5.4",
+      "bom-ref": "cargo/totp-rs@5.4"
+    },
+    {
+      "type": "library",
+      "name": "ringbuf",
+      "version": "0.3",
+      "purl": "pkg:cargo/ringbuf@0.3",
+      "bom-ref": "cargo/ringbuf@0.3"
+    },
+    {
+      "type": "library",
+      "name": "mac_address",
+      "version": "1.1",
+      "purl": "pkg:cargo/mac_address@1.1",
+      "bom-ref": "cargo/mac_address@1.1"
+    },
+    {
+      "type": "library",
+      "name": "sys-locale",
+      "version": "0.3",
+      "purl": "pkg:cargo/sys-locale@0.3",
+      "bom-ref": "cargo/sys-locale@0.3"
+    },
+    {
+      "type": "library",
+      "name": "ctrlc",
+      "version": "3.2",
+      "purl": "pkg:cargo/ctrlc@3.2",
+      "bom-ref": "cargo/ctrlc@3.2"
+    },
+    {
+      "type": "library",
+      "name": "system_shutdown",
+      "version": "4.0",
+      "purl": "pkg:cargo/system_shutdown@4.0",
+      "bom-ref": "cargo/system_shutdown@4.0"
+    },
+    {
+      "type": "library",
+      "name": "qrcode-generator",
+      "version": "4.1",
+      "purl": "pkg:cargo/qrcode-generator@4.1",
+      "bom-ref": "cargo/qrcode-generator@4.1"
+    },
+    {
+      "type": "library",
+      "name": "winapi",
+      "version": "0.3",
+      "purl": "pkg:cargo/winapi@0.3",
+      "bom-ref": "cargo/winapi@0.3"
+    },
+    {
+      "type": "library",
+      "name": "windows",
+      "version": "0.61",
+      "purl": "pkg:cargo/windows@0.61",
+      "bom-ref": "cargo/windows@0.61"
+    },
+    {
+      "type": "library",
+      "name": "winreg",
+      "version": "0.11",
+      "purl": "pkg:cargo/winreg@0.11",
+      "bom-ref": "cargo/winreg@0.11"
+    },
+    {
+      "type": "library",
+      "name": "windows-service",
+      "version": "0.6",
+      "purl": "pkg:cargo/windows-service@0.6",
+      "bom-ref": "cargo/windows-service@0.6"
+    },
+    {
+      "type": "library",
+      "name": "shared_memory",
+      "version": "0.12",
+      "purl": "pkg:cargo/shared_memory@0.12",
+      "bom-ref": "cargo/shared_memory@0.12"
+    },
+    {
+      "type": "library",
+      "name": "tauri-winrt-notification",
+      "version": "0.1",
+      "purl": "pkg:cargo/tauri-winrt-notification@0.1",
+      "bom-ref": "cargo/tauri-winrt-notification@0.1"
+    },
+    {
+      "type": "library",
+      "name": "runas",
+      "version": "1.2",
+      "purl": "pkg:cargo/runas@1.2",
+      "bom-ref": "cargo/runas@1.2"
+    },
+    {
+      "type": "library",
+      "name": "objc",
+      "version": "0.2",
+      "purl": "pkg:cargo/objc@0.2",
+      "bom-ref": "cargo/objc@0.2"
+    },
+    {
+      "type": "library",
+      "name": "cocoa",
+      "version": "0.24",
+      "purl": "pkg:cargo/cocoa@0.24",
+      "bom-ref": "cargo/cocoa@0.24"
+    },
+    {
+      "type": "library",
+      "name": "dispatch",
+      "version": "0.2",
+      "purl": "pkg:cargo/dispatch@0.2",
+      "bom-ref": "cargo/dispatch@0.2"
+    },
+    {
+      "type": "library",
+      "name": "core-foundation",
+      "version": "0.9",
+      "purl": "pkg:cargo/core-foundation@0.9",
+      "bom-ref": "cargo/core-foundation@0.9"
+    },
+    {
+      "type": "library",
+      "name": "core-graphics",
+      "version": "0.22",
+      "purl": "pkg:cargo/core-graphics@0.22",
+      "bom-ref": "cargo/core-graphics@0.22"
+    },
+    {
+      "type": "library",
+      "name": "include_dir",
+      "version": "0.7",
+      "purl": "pkg:cargo/include_dir@0.7",
+      "bom-ref": "cargo/include_dir@0.7"
+    },
+    {
+      "type": "library",
+      "name": "fruitbasket",
+      "version": "0.10",
+      "purl": "pkg:cargo/fruitbasket@0.10",
+      "bom-ref": "cargo/fruitbasket@0.10"
+    },
+    {
+      "type": "library",
+      "name": "objc_id",
+      "version": "0.1",
+      "purl": "pkg:cargo/objc_id@0.1",
+      "bom-ref": "cargo/objc_id@0.1"
+    },
+    {
+      "type": "library",
+      "name": "image",
+      "version": "0.24",
+      "purl": "pkg:cargo/image@0.24",
+      "bom-ref": "cargo/image@0.24"
+    },
+    {
+      "type": "library",
+      "name": "psimple",
+      "version": "2.27",
+      "purl": "pkg:cargo/psimple@2.27",
+      "bom-ref": "cargo/psimple@2.27"
+    },
+    {
+      "type": "library",
+      "name": "pulse",
+      "version": "2.27",
+      "purl": "pkg:cargo/pulse@2.27",
+      "bom-ref": "cargo/pulse@2.27"
+    },
+    {
+      "type": "library",
+      "name": "async-process",
+      "version": "1.7",
+      "purl": "pkg:cargo/async-process@1.7",
+      "bom-ref": "cargo/async-process@1.7"
+    },
+    {
+      "type": "library",
+      "name": "dbus",
+      "version": "0.9",
+      "purl": "pkg:cargo/dbus@0.9",
+      "bom-ref": "cargo/dbus@0.9"
+    },
+    {
+      "type": "library",
+      "name": "dbus-crossroads",
+      "version": "0.5",
+      "purl": "pkg:cargo/dbus-crossroads@0.5",
+      "bom-ref": "cargo/dbus-crossroads@0.5"
+    },
+    {
+      "type": "library",
+      "name": "users",
+      "version": "0.11",
+      "purl": "pkg:cargo/users@0.11",
+      "bom-ref": "cargo/users@0.11"
+    },
+    {
+      "type": "library",
+      "name": "x11rb",
+      "version": "0.12",
+      "purl": "pkg:cargo/x11rb@0.12",
+      "bom-ref": "cargo/x11rb@0.12"
+    },
+    {
+      "type": "library",
+      "name": "percent-encoding",
+      "version": "2.3",
+      "purl": "pkg:cargo/percent-encoding@2.3",
+      "bom-ref": "cargo/percent-encoding@2.3"
+    },
+    {
+      "type": "library",
+      "name": "once_cell",
+      "version": "1.18",
+      "purl": "pkg:cargo/once_cell@1.18",
+      "bom-ref": "cargo/once_cell@1.18"
+    },
+    {
+      "type": "library",
+      "name": "nix",
+      "version": "0.29",
+      "purl": "pkg:cargo/nix@0.29",
+      "bom-ref": "cargo/nix@0.29"
+    },
+    {
+      "type": "library",
+      "name": "gtk",
+      "version": "0.18",
+      "purl": "pkg:cargo/gtk@0.18",
+      "bom-ref": "cargo/gtk@0.18"
+    },
+    {
+      "type": "library",
+      "name": "termios",
+      "version": "0.3",
+      "purl": "pkg:cargo/termios@0.3",
+      "bom-ref": "cargo/termios@0.3"
+    },
+    {
+      "type": "library",
+      "name": "android_logger",
+      "version": "0.13",
+      "purl": "pkg:cargo/android_logger@0.13",
+      "bom-ref": "cargo/android_logger@0.13"
+    },
+    {
+      "type": "library",
+      "name": "jni",
+      "version": "0.21",
+      "purl": "pkg:cargo/jni@0.21",
+      "bom-ref": "cargo/jni@0.21"
+    },
+    {
+      "type": "library",
+      "name": "LegalCopyright",
+      "version": "Copyright \u00a9 2025 Purslane Ltd. All rights reserved.",
+      "purl": "pkg:cargo/LegalCopyright@Copyright \u00a9 2025 Purslane Ltd. All rights reserved.",
+      "bom-ref": "cargo/LegalCopyright@Copyright \u00a9 2025 Purslane Ltd. All rights reserved."
+    },
+    {
+      "type": "library",
+      "name": "ProductName",
+      "version": "RustDesk",
+      "purl": "pkg:cargo/ProductName@RustDesk",
+      "bom-ref": "cargo/ProductName@RustDesk"
+    },
+    {
+      "type": "library",
+      "name": "FileDescription",
+      "version": "RustDesk Remote Desktop",
+      "purl": "pkg:cargo/FileDescription@RustDesk Remote Desktop",
+      "bom-ref": "cargo/FileDescription@RustDesk Remote Desktop"
+    },
+    {
+      "type": "library",
+      "name": "OriginalFilename",
+      "version": "rustdesk.exe",
+      "purl": "pkg:cargo/OriginalFilename@rustdesk.exe",
+      "bom-ref": "cargo/OriginalFilename@rustdesk.exe"
+    },
+    {
+      "type": "library",
+      "name": "winres",
+      "version": "0.1",
+      "purl": "pkg:cargo/winres@0.1",
+      "bom-ref": "cargo/winres@0.1"
+    },
+    {
+      "type": "library",
+      "name": "cc",
+      "version": "1.0",
+      "purl": "pkg:cargo/cc@1.0",
+      "bom-ref": "cargo/cc@1.0"
+    },
+    {
+      "type": "library",
+      "name": "os-version",
+      "version": "0.2",
+      "purl": "pkg:cargo/os-version@0.2",
+      "bom-ref": "cargo/os-version@0.2"
+    },
+    {
+      "type": "library",
+      "name": "hound",
+      "version": "3.5",
+      "purl": "pkg:cargo/hound@3.5",
+      "bom-ref": "cargo/hound@3.5"
+    },
+    {
+      "type": "library",
+      "name": "docopt",
+      "version": "1.1",
+      "purl": "pkg:cargo/docopt@1.1",
+      "bom-ref": "cargo/docopt@1.1"
+    },
+    {
+      "type": "library",
+      "name": "identifier",
+      "version": "com.carriez.rustdesk",
+      "purl": "pkg:cargo/identifier@com.carriez.rustdesk",
+      "bom-ref": "cargo/identifier@com.carriez.rustdesk"
+    },
+    {
+      "type": "library",
+      "name": "osx_minimum_system_version",
+      "version": "10.14",
+      "purl": "pkg:cargo/osx_minimum_system_version@10.14",
+      "bom-ref": "cargo/osx_minimum_system_version@10.14"
+    },
+    {
+      "type": "library",
+      "name": "nose",
+      "version": "==1.3.7",
+      "purl": "pkg:pypi/nose@1.3.7",
+      "bom-ref": "pypi/nose@==1.3.7"
+    },
+    {
+      "type": "library",
+      "name": "black",
+      "version": "==26.3.1",
+      "purl": "pkg:pypi/black@26.3.1",
+      "bom-ref": "pypi/black@==26.3.1"
+    },
+    {
+      "type": "library",
+      "name": "doctest-ignore-unicode",
+      "version": "==0.1.2",
+      "purl": "pkg:pypi/doctest-ignore-unicode@0.1.2",
+      "bom-ref": "pypi/doctest-ignore-unicode@==0.1.2"
+    },
+    {
+      "type": "library",
+      "name": "sphinx",
+      "version": "< 5",
+      "purl": "pkg:pypi/sphinx@5",
+      "bom-ref": "pypi/sphinx@< 5"
+    },
+    {
+      "type": "library",
+      "name": "__version__",
+      "version": "= ",
+      "purl": "pkg:pypi/--version--@",
+      "bom-ref": "pypi/__version__@= "
+    },
+    {
+      "type": "library",
+      "name": "Daniel",
+      "version": "unspecified",
+      "purl": "pkg:pypi/daniel",
+      "bom-ref": "pypi/Daniel@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rdfpipe",
+      "version": "= rdflib.tools.rdfpipe:main",
+      "purl": "pkg:pypi/rdfpipe@rdflib.tools.rdfpipe:main",
+      "bom-ref": "pypi/rdfpipe@= rdflib.tools.rdfpipe:main"
+    },
+    {
+      "type": "library",
+      "name": "csv2rdf",
+      "version": "= rdflib.tools.csv2rdf:main",
+      "purl": "pkg:pypi/csv2rdf@rdflib.tools.csv2rdf:main",
+      "bom-ref": "pypi/csv2rdf@= rdflib.tools.csv2rdf:main"
+    },
+    {
+      "type": "library",
+      "name": "rdf2dot",
+      "version": "= rdflib.tools.rdf2dot:main",
+      "purl": "pkg:pypi/rdf2dot@rdflib.tools.rdf2dot:main",
+      "bom-ref": "pypi/rdf2dot@= rdflib.tools.rdf2dot:main"
+    },
+    {
+      "type": "library",
+      "name": "rdfs2dot",
+      "version": "= rdflib.tools.rdfs2dot:main",
+      "purl": "pkg:pypi/rdfs2dot@rdflib.tools.rdfs2dot:main",
+      "bom-ref": "pypi/rdfs2dot@= rdflib.tools.rdfs2dot:main"
+    },
+    {
+      "type": "library",
+      "name": "rdfgraphisomorphism",
+      "version": "= rdflib.tools.graphisomorphism:main",
+      "purl": "pkg:pypi/rdfgraphisomorphism@rdflib.tools.graphisomorphism:main",
+      "bom-ref": "pypi/rdfgraphisomorphism@= rdflib.tools.graphisomorphism:main"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": ">= 1.0.0",
+      "purl": "pkg:pypi/scipy@1.0.0",
+      "bom-ref": "pypi/scipy@>= 1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": ">=1.5.0",
+      "purl": "pkg:pypi/matplotlib@1.5.0",
+      "bom-ref": "pypi/matplotlib@>=1.5.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp",
+      "version": "^3.9.1",
+      "purl": "pkg:npm/gulp@^3.9.1",
+      "bom-ref": "npm/gulp@^3.9.1"
+    },
+    {
+      "type": "library",
+      "name": "bower-files",
+      "version": "^3.14.1",
+      "purl": "pkg:npm/bower-files@^3.14.1",
+      "bom-ref": "npm/bower-files@^3.14.1"
+    },
+    {
+      "type": "library",
+      "name": "browser-sync",
+      "version": "^2.18.5",
+      "purl": "pkg:npm/browser-sync@^2.18.5",
+      "bom-ref": "npm/browser-sync@^2.18.5"
+    },
+    {
+      "type": "library",
+      "name": "browserfy",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/browserfy@^1.0.0",
+      "bom-ref": "npm/browserfy@^1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "browserify",
+      "version": "^13.1.1",
+      "purl": "pkg:npm/browserify@^13.1.1",
+      "bom-ref": "npm/browserify@^13.1.1"
+    },
+    {
+      "type": "library",
+      "name": "del",
+      "version": "^2.2.2",
+      "purl": "pkg:npm/del@^2.2.2",
+      "bom-ref": "npm/del@^2.2.2"
+    },
+    {
+      "type": "library",
+      "name": "gulp-concat",
+      "version": "^2.6.1",
+      "purl": "pkg:npm/gulp-concat@^2.6.1",
+      "bom-ref": "npm/gulp-concat@^2.6.1"
+    },
+    {
+      "type": "library",
+      "name": "gulp-jshint",
+      "version": "^2.0.4",
+      "purl": "pkg:npm/gulp-jshint@^2.0.4",
+      "bom-ref": "npm/gulp-jshint@^2.0.4"
+    },
+    {
+      "type": "library",
+      "name": "gulp-uglify",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/gulp-uglify@^2.0.0",
+      "bom-ref": "npm/gulp-uglify@^2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp-util",
+      "version": "^3.0.8",
+      "purl": "pkg:npm/gulp-util@^3.0.8",
+      "bom-ref": "npm/gulp-util@^3.0.8"
+    },
+    {
+      "type": "library",
+      "name": "jshint",
+      "version": "^2.9.4",
+      "purl": "pkg:npm/jshint@^2.9.4",
+      "bom-ref": "npm/jshint@^2.9.4"
+    },
+    {
+      "type": "library",
+      "name": "vinyl-source-stream",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/vinyl-source-stream@^1.1.0",
+      "bom-ref": "npm/vinyl-source-stream@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "inspect4py",
+      "version": "= inspect4py.cli:main",
+      "purl": "pkg:pypi/inspect4py@inspect4py.cli:main",
+      "bom-ref": "pypi/inspect4py@= inspect4py.cli:main"
+    },
+    {
+      "type": "library",
+      "name": "ctapipe",
+      "version": "unspecified",
+      "purl": "pkg:pypi/ctapipe",
+      "bom-ref": "pypi/ctapipe@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ctaplot",
+      "version": "unspecified",
+      "purl": "pkg:pypi/ctaplot",
+      "bom-ref": "pypi/ctaplot@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dl1_data_handler",
+      "version": "unspecified",
+      "purl": "pkg:pypi/dl1_data_handler",
+      "bom-ref": "pypi/dl1_data_handler@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "h5py",
+      "version": "unspecified",
+      "purl": "pkg:pypi/h5py",
+      "bom-ref": "pypi/h5py@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "indexedconv",
+      "version": "unspecified",
+      "purl": "pkg:pypi/indexedconv",
+      "bom-ref": "pypi/indexedconv@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lightning",
+      "version": "unspecified",
+      "purl": "pkg:pypi/lightning",
+      "bom-ref": "pypi/lightning@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lstchain",
+      "version": "unspecified",
+      "purl": "pkg:pypi/lstchain",
+      "bom-ref": "pypi/lstchain@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pandas",
+      "bom-ref": "pypi/pandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pillow",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pillow",
+      "bom-ref": "pypi/pillow@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tables",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tables",
+      "bom-ref": "pypi/tables@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pot",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pot",
+      "bom-ref": "pypi/pot@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytorch",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pytorch",
+      "bom-ref": "pypi/pytorch@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-image",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scikit-image",
+      "bom-ref": "pypi/scikit-image@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "setuptools",
+      "version": "unspecified",
+      "purl": "pkg:pypi/setuptools",
+      "bom-ref": "pypi/setuptools@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tensorboardX",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tensorboardx",
+      "bom-ref": "pypi/tensorboardX@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "torchaudio",
+      "version": "unspecified",
+      "purl": "pkg:pypi/torchaudio",
+      "bom-ref": "pypi/torchaudio@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "torchmetrics",
+      "version": "unspecified",
+      "purl": "pkg:pypi/torchmetrics",
+      "bom-ref": "pypi/torchmetrics@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "torchvision",
+      "version": "unspecified",
+      "purl": "pkg:pypi/torchvision",
+      "bom-ref": "pypi/torchvision@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tqdm",
+      "bom-ref": "pypi/tqdm@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "wandb",
+      "version": "unspecified",
+      "purl": "pkg:pypi/wandb",
+      "bom-ref": "pypi/wandb@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "beautifulsoup4",
+      "version": "~=4.12",
+      "purl": "pkg:pypi/beautifulsoup4@4.12",
+      "bom-ref": "pypi/beautifulsoup4@~=4.12"
+    },
+    {
+      "type": "library",
+      "name": "configparser",
+      "version": "~=6.0",
+      "purl": "pkg:pypi/configparser@6.0",
+      "bom-ref": "pypi/configparser@~=6.0"
+    },
+    {
+      "type": "library",
+      "name": "pytorch",
+      "version": "unspecified",
+      "purl": "pkg:generic/pytorch",
+      "bom-ref": "conda/pytorch@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:generic/numpy",
+      "bom-ref": "conda/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python",
+      "version": ">= {required_major}.{required_minor}.",
+      "purl": "pkg:pypi/python@{required_major}.{required_minor}.",
+      "bom-ref": "pypi/python@>= {required_major}.{required_minor}."
+    },
+    {
+      "type": "library",
+      "name": "mypy",
+      "version": ">=0.760",
+      "purl": "pkg:pypi/mypy@0.760",
+      "bom-ref": "pypi/mypy@>=0.760"
+    },
+    {
+      "type": "library",
+      "name": "usort",
+      "version": "==0.6.4",
+      "purl": "pkg:pypi/usort@0.6.4",
+      "bom-ref": "pypi/usort@==0.6.4"
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": ">=1.2",
+      "purl": "pkg:pypi/torch@1.2",
+      "bom-ref": "pypi/torch@>=1.2"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "unspecified",
+      "purl": "pkg:generic/pandas",
+      "bom-ref": "conda/pandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-learn",
+      "version": "unspecified",
+      "purl": "pkg:generic/scikit-learn",
+      "bom-ref": "conda/scikit-learn@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": "unspecified",
+      "purl": "pkg:generic/requests",
+      "bom-ref": "conda/requests@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "nltk",
+      "version": "unspecified",
+      "purl": "pkg:generic/nltk",
+      "bom-ref": "conda/nltk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "markdown",
+      "version": "unspecified",
+      "purl": "pkg:generic/markdown",
+      "bom-ref": "conda/markdown@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jupyter",
+      "version": "unspecified",
+      "purl": "pkg:generic/jupyter",
+      "bom-ref": "conda/jupyter@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "unspecified",
+      "purl": "pkg:generic/matplotlib",
+      "bom-ref": "conda/matplotlib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "beautifulsoup4",
+      "version": "unspecified",
+      "purl": "pkg:generic/beautifulsoup4",
+      "bom-ref": "conda/beautifulsoup4@unspecified"
+    }
+  ]
+}
