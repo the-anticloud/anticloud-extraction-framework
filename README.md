@@ -1,54 +1,24 @@
 # EXTRACTION_FRAMEWORK
 
-> A command line interface for automatically extracting relevant metadata from code repositories (readme, configuration files, documentation, etc.).
+> **Homepage**: http://dbpedia.org **Documentation**: http://dev.dbpedia.org/Extraction **Get in touch with DBpedia**: https://wiki.dbpedia.org/join/get-in-touch **Slack**: join the [**#dev-team**](https://dbpedia.slack.com/archives/C0L9MJFU7) Slack channel within the DBpedia Slack workspace — the main point for [development updates](https://github.com/dbpedia/extraction-framework/blob/master/.github/workflows/maven.yml) and discussions
 
-**Category:** PHILOSOPHY_SEMANTICS · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/KnowledgeCaptureAndDiscovery/somef · **Pinned commit:** `96b63eda27422e420c64ad6ff54fe9db61395f3a` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/KnowledgeCaptureAndDiscovery/somef` as the implementation for the `EXTRACTION_FRAMEWORK` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** PHILOSOPHY_SEMANTICS · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/dbpedia/extraction-framework · **Pinned commit:** `b66cb8b976d69b17b0afa11fa701d5ae8463f42e` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-A command line interface for automatically extracting relevant metadata from code repositories (readme, configuration files, documentation, etc.).
+**Homepage**: http://dbpedia.org **Documentation**: http://dev.dbpedia.org/Extraction **Get in touch with DBpedia**: https://wiki.dbpedia.org/join/get-in-touch **Slack**: join the [**#dev-team**](https://dbpedia.slack.com/archives/C0L9MJFU7) Slack channel within the DBpedia Slack workspace — the main point for [development updates](https://github.com/dbpedia/extraction-framework/blob/master/.github/workflows/maven.yml) and discussions
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-SOMEF [is available in Pypi!](https://pypi.org/project/somef/) To install it just type:
-
 ```
-pip install somef
+# See the upstream README (linked above) for build steps.
 ```
 
 ## Usage
 
-```bash
-$ somef describe --help
-  SOMEF Command Line Interface
-Usage: somef describe [OPTIONS]
-
-  Running the Command Line Interface
-
-Options:
-  -t, --threshold FLOAT           Threshold to classify the text  [required]
-  Input: [mutually_exclusive, required]
-    -r, --repo_url URL            Github/Gitlab/Codeberg/Bitbucket Repository URL
-    -d, --doc_src PATH            Path to the README file source
-    -i, --in_file PATH            A file of newline separated links to GitHub/
-                                  Gitlab/Codeberg/Bitbucket repositories
-    -l, --local_repo PATH         Path to the local repository source. No APIs will be used
-
-  Output: [required_any]
-    -o, --output PATH             Path to the output file. If supplied, the
-                                  output will be in JSON
-    -c, --codemeta_out PATH       Path to an output codemeta file
-    -g, --graph_out PATH          Path to the output Knowledge Graph export
-                                  file. If supplied, the output will be a
-                                  Knowledge Graph, in the format given in the
-                                  --format option chosen (turtle, json-ld)
-    -gc, --google_codemeta_out PATH Path to a Google-compliant Codemeta JSON-LD
-                                    file. This output transforms the standard
-                                    Codemeta to follow Google’s expected JSON-LD
+See the upstream README (linked above) for usage. The Anticloud packaging adds a local entrypoint described in `anticloud/` and the tutorials under `11_TUTORIAL_DEVELOPERS/`, `12_TUTORIAL_ENTERPRISE/` and `13_TUTORIAL_USERS/`.
 
 ## Anticloud Overlay
 
@@ -90,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-efadbca7135dec6d112c94b531e757d1603dc7750467499c7e9d95492850da56
+ed7486d323b50cb9dfafce4fe83b0b8ded5b3d5c4c0cf2c9c8d8650992485c63
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

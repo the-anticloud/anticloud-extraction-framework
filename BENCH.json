@@ -2,13 +2,19 @@
  "schema": "anticloud.tier-bench/1",
  "project": "EXTRACTION_FRAMEWORK",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\PHILOSOPHY_SEMANTICS\\EXTRACTION_FRAMEWORK\\UPSTREAM_CLONE",
   "git": {
-   "head": "96b63eda27422e420c64ad6ff54fe9db61395f3a",
-   "url": "https://github.com/KnowledgeCaptureAndDiscovery/somef",
-   "branch": "master",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/dbpedia/extraction-framework",
+   "head": "b66cb8b976d69b17b0afa11fa701d5ae8463f42e",
+   "sha_verified_from": "revendor archive 2026-10-17",
+   "previous_substitute": "https://github.com/KnowledgeCaptureAndDiscovery/somef",
+   "paths_skipped_windows_incompatible": 34,
+   "paths_skipped_sample": [
+    "dump/src/test/resources/minidumps/wikidata.org/wiki/Lexeme:L11/wiki.xml.bz2",
+    "dump/src/test/resources/minidumps/wikidata.org/wiki/Lexeme:L220661/wiki.xml.bz2",
+    "dump/src/test/resources/minidumps/wikidata.org/wiki/Lexeme:L221495/wiki.xml.bz2",
+    "dump/src/test/resources/minidumps/wikidata.org/wiki/Lexeme:L221521/wiki.xml.bz2",
+    "dump/src/test/resources/minidumps/wikidata.org/wiki/Lexeme:L221524/wiki.xml.bz2"
+   ]
   }
  },
  "metrics": {
